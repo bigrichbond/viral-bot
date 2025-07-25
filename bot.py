@@ -3,7 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-TOKEN = '8360849754:AAGndHIvG7cyg_RlDOJj2gv_49Gw0Bq2g5U'
+TOKEN = '8360849754:AAGndHIvG7cyg_RlDOJj2gv_49Gw0Bq2xxx'  # ← замени на свой реальный токен
 TELEGRAM_API = f'https://api.telegram.org/bot{TOKEN}'
 
 # Отправка текстового сообщения
